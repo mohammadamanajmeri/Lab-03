@@ -11,7 +11,7 @@
             "program": "process_sales_data.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["Sales_data.csv"]
+            "args": ["sales_data.csv"]
         },
         {
             "name": "Run with invalid CSV path",
@@ -20,16 +20,15 @@
             "program": "process_sales_data.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["Sales_data123.csv"]
+            "args": ["sales_data123.csv"]
         },
         {
-            "name": "Run wit no CSV path",
+            "name": "Run without CSV path",
             "type": "python",
             "request": "launch",
             "program": "process_sales_data.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["Sales_data.csv"]
         }
     ]
 }
