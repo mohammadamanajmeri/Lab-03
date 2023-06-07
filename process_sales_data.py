@@ -111,9 +111,13 @@ def process_sales_data(sales_csv_path, orders_dir_path):
  
  
         # TODO: Format the Excel sheet
+        worksheet_name.add_format({'bold': True})
         # TODO: Define format for the money columns
+        worksheet_name.add_format({'num_format': '$#,##0'})
         # TODO: Format each colunm
+        
         # TODO: Close the Excelwriter 
+        worksheet_name.close()
     return
  
 if __name__ == '__main__':
